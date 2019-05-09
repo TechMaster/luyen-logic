@@ -4,6 +4,8 @@
    - Hệ điều hành MacOS phải là phiên bản 10.13.6 hoặc mới hơn
    - Download Xcode từ AppStore hoặc từ trang web Developer của Apple
    - Chạy file .dmg vừa donwload
+	![mac version](mac_version.jpg)
+	
 2. Cài đặt Swift Command line Tool
    - Đối với MacOS bản Mojave thì Xcode sẽ thiếu một thư viện có tên là Swift_5_Runtime_Support_for_Command_Line_Tools
    - Vào trang [https://developer.apple.com/download/more/](https://developer.apple.com/download/more/) để tải về
