@@ -51,15 +51,12 @@ Từ kết quả bài 5 hãy viết hàm để chuyển vị ma trận
 Ví dụ ban đầu là
 ```
 2  3  4
-
 1  5  8
-``
+
 Sau khi chuyển vị
-```
+
 2  1
-
 3  5
-
 4  8
 ```
 # Bài 7
