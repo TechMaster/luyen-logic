@@ -57,30 +57,21 @@ k = 8: (4, 4) = 24                                          start = 4, k-start= 
 */
 func buildZigZag(N: Int) -> [[Int]]{
   var arr =  Array(repeating: Array(repeating: 0, count: N), count: N)
-
-
-  var i = 0
-  var j = 0
   var num = 1
-  var start: Int
+
   //Xây dựng các đường chéo phụ từ 1 trở đi đến 2 * N - 2
   for k in 1...2 * N - 2 { 
-    start = k < N ? 0 : k - N + 1
+    let start = k < N ? 0 : k - N + 1
     // Đường chéo phụ chẵn và lẻ khác nhau ở giá trị i, j
-    if k % 2 == 0 {
-      for j in start...(k-start) {
-        i = k - j
-        arr[i][j] = num
+    for i in start...(k-start) {
+        let j = k - i
+        if k % 2 == 0 {
+          arr[j][i] = num
+        } else {
+          arr[i][j] = num
+        }        
         num += 1
-      }
-    } else {
-      for i in start...(k-start) {
-        j = k - i
-        arr[i][j] = num
-        num += 1
-      }
-    }
-    
+    }  
   }
   return arr
 }
