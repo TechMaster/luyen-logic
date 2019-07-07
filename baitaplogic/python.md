@@ -29,3 +29,12 @@ Số sinh ngẫu nhiên là 34
 - Nhập 37, báo "Lớn hơn số cần đoán"
 - Nhập 30, báo "Nhỏ hơn số cần đoán"
 - Nhập 34, báo "Tuyệt bạn đã đoán đúng - 34 !"
+
+## 3. Tìm chuỗi ngày doanh thu phát triển liên tục dài nhất
+Tý học xong khoá học phân tích dữ liệu Python ở Techmaster xin được vào một tập đoàn lớn. Sếp của Tý đưa một mảng số liệu gồm doanh thu của công ty trong nhiều năm, yêu cầu Tý chỉ ra những khoảng thời gian nào doanh thu liên tục tăng dài nhất.
+
+Ví dụ:
+[3, 2, 1, 2, 3, 4, 6, 8, 7, 4, 5, 10, 11, 12, 15, 16, 17, 18, 22, 18, 17]
+
+Tý tìm thủ công thì ra được  [5, 10, 11, 12, 15, 16, 17, 18, 22]
+Nhưng nếu lập trình thì sao nhỉ? Nếu có nhiều đoạn tăng trường dài như nhau thì in hết ra
