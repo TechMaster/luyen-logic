@@ -1,6 +1,6 @@
 # Đề thực hành lớp python lần 3
 
-##1. Vẽ đồ thị
+## 1. Vẽ đồ thị
 
 Đây là một ví dụ vẽ đồ thị scatter
 ```python
@@ -26,13 +26,13 @@ Yêu cầu: Hãy đọc dữ liệu từ file CSV [data.csv](data.csv) rồi v�
 
 Chú ý không được dùng pandas hay thư viện khác ngoài csv
 
-##2. Vẽ ma trận kiểu gọt dứa
+## 2. Vẽ ma trận kiểu gọt dứa
 
 ![](zigzag.jpg)
 
 Code viết bằng Swift đã có sẵn [zigzag.swift](zigzag.swift) hãy đọc để chuyển sang Python
 
-##3. Xử lý ảnh
+## 3. Xử lý ảnh
 Cho một ảnh con mèo
 ![](cat.jpg)
 
