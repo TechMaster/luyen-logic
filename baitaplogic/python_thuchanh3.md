@@ -40,3 +40,9 @@ Cho một ảnh con mèo
 2. Sử dụng Gassian Blur để làm mờ ảnh
 
 Gợi ý: Google tìm cách làm. Keyword: OpenCV
+
+## 4. Job scheduling
+Hãy viết một đoạn Python script cứ cuối mỗi ngày lúc 5:00 chiều, gửi một báo cáo cho giám đốc
+bằng email.
+
+Gợi ý: tham khảo thư viện này [https://github.com/dbader/schedule](https://github.com/dbader/schedule) và thư viện này [https://github.com/kootenpv/yagmail](https://github.com/kootenpv/yagmail)
