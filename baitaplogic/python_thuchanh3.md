@@ -32,4 +32,11 @@ Chú ý không được dùng pandas hay thư viện khác ngoài csv
 
 Code viết bằng Swift đã có sẵn [zigzag.swift](zigzag.swift) hãy đọc để chuyển sang Python
 
-##3.
+##3. Xử lý ảnh
+Cho một ảnh con mèo
+![](cat.jpg)
+
+1. Chuyển sang ảnh đen trắng
+2. Sử dụng Gassian Blur để làm mờ ảnh
+
+Gợi ý: Google tìm cách làm. Keyword: OpenCV
