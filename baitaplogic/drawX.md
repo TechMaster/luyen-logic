@@ -8,20 +8,24 @@ Vẽ đường chéo thuận từ trái sang phải
 sau đó vẽ đường chéo nghịch từ phải sang trái
 Cuối cùng kết hợp logic của 2 đường lại vào trong 1 vòng lặp 0...N-1
 
-N=3
+- N = 3
+```
 *   *
   *
 *   *
+```
 
-N=5
+- N = 5
+```
 *       *
   *   * 
     * 
   *   *
 *       *
+```
 
-
-N=7
+- N = 7
+```
 *           *
   *       *
     *   * 
@@ -29,9 +33,11 @@ N=7
     *   *
   *       *
 *           *
+```
 
+- **Chia nhỏ bài toán**
 N=5
-
+```
 *
   *
     *
@@ -43,5 +49,5 @@ N=5
     *
   *
 *
-
+```
 SublimeText  
