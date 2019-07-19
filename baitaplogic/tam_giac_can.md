@@ -41,7 +41,14 @@ Nếu khó quá hãy chia thành 2 bước:
 Lời khuyên tiếp theo đó là đặt tên hàm dễ nhớ, có tham số truyền vào cụ thể, đứng nhét logic nhập dữ liệu vào trong hàm này
 
 ```swift
-func ve_tam_giac_can(n: Int) {
-	
+func ve_tam_giac_can(N: Int) {
+	for i in 0..<N {
+		let space_str = String(repeating: " ", count: 2 * (N - i - 1))
+		let star_str = String(repeating: "* ", count: 2 * i + 1)
+
+		print(space_str + star_str)
+	}
 }
+
+ve_tam_giac_can(N: 8)
 ```
