@@ -26,9 +26,11 @@ Hãy sử dụng phương pháp tính correlation để tìm ra xác suất xu�
 
 Gợi ý: Cần tạo ra data frame mới bổ xung các cột, mỗi cột tương ứng với một thể loại phim. Thể loại nào có trong phim nhận giá trị 1, còn không có nhận giá trị 0.
 
+```
 id, film, year, Adventure, Animation, Children, Comedy, Drama, Fantasy,...
 1,Toy Story,1995,1|1|1|1|0,1..
 2,Jumanji,1995,1|0|1,0,0,0...
+```
 
 ## 3. Xử lý ngôn ngữ mức căn bản
-Hãy phân tích trong tất cả các tiêu đề phim. Loại trừ ra các English stop word như: [a, an, the, to, and, this, that, but...], [xem chi tiết tại đây](https://gist.github.com/sebleier/554280) hãy liệt kê 10 từ xuất hiện nhiều nhất
+Hãy phân tích trong tất cả các tiêu đề phim. Loại trừ ra các English stop word như: [a, an, the, to, and, this, that, but...], [xem chi tiết tại đây](https://gist.github.com/sebleier/554280) hãy liệt kê 10 từ xuất hiện nhiều nhất trong tiêu đề phim
