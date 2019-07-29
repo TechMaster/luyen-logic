@@ -1,2 +1,5 @@
-# Bài tập lập trình lớp IOS 8 tối khai giảng 4/2019
+# Bài tập lập trình lớp iOS và Python
+
+Học là có việc !
+
 ![](iosclass.jpg)

@@ -1,5 +1,13 @@
 # Đề thực hành phân tích dữ liệu Pandas
 
+[File dữ liệu gốc](movies.csv)
+Đặc điểm của file này là năm phát hành phim nằm trong tiêu đề phim, và các thể loại phim được phân cách bởi ký tự pipe.
+
+Trước khi làm các yêu cầu cụ thể, cần có bước chuẩn hoá dữ liệu.
+
+Kết thúc các yêu cầu, cần lấy một tập dữ liệu đủ nhỏ khoảng 10-20 dòng để kiểm tra tính chính xác.
+
+
 ## 1. Phân tích dữ liệu các bộ phim Hollywood
 - Hãy liệt kê tất cả các thể loại phim theo tần suất xuất hiện
 
