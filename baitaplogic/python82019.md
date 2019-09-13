@@ -21,7 +21,7 @@ b> Sau đó kiểm tra với hàm tính bằng Numpy
 
 ## 3. Hãy lập trình hàm chuyển vị Transpose
 
-4. Đánh dấu tăng, giảm một mảng
+## 4. Đánh dấu tăng, giảm một mảng
 Hãy viết một hàm tham số đầu vào là một mảng các số tự nhiên trả về một mảng gồm các ký tự + hoặc - hay = mô tả phần tử tiếp theo tăng hay giảm hay bằng so với phần tử trước đó
 
 sign = "+" if A[i+1] > A[i] else "-" if A[i+1] < A[i] else "=" Ví dụ: m = [1, 4, 4, 2, 3, 6, 7, 8, 5, 5] def inc_or_dec(array):->[String]
